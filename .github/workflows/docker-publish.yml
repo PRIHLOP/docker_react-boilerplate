@@ -48,7 +48,7 @@ jobs:
         with:
           images: |
             ${{ secrets.DOCKER_USERNAME }}/react-boilerplate
-            ghcr.io/react-boilerplate
+            ghcr.io/prihlop/react-boilerplate
       
       - name: Build and push Docker images
         uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
